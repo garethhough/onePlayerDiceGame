@@ -22,7 +22,7 @@ function scoreFunction(num) {
         score.innerHTML = playerOneScore;
 // If players score is greater than 20, you win
         if (playerOneScore > 20) {
-            alert("You win!");
+            alert("You scored more than 20, You win!");
             newGame();
         } else {
             console.log("roll again");
