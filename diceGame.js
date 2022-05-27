@@ -29,7 +29,7 @@ function scoreFunction(num) {
         }
 // If you role a one, you lose
     } else {
-        alert("You roled a 1, You lose!");
+        alert("You rolled a 1, You lose!");
         newGame();
     }
 }
